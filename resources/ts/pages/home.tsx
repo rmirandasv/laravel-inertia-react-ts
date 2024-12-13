@@ -1,7 +1,7 @@
 export default function Home() {
   return (
-    <div>
-      <h1>Home</h1>
+    <div className="min-h-screen flex flex-col items-center justify-center bg-gradient-to-b from-slate-800 to-slate-700">
+      <h1 className="text-white">Laravel + Inertia + React + Typescript</h1>
     </div>
   );
 }
